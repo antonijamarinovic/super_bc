@@ -3,7 +3,7 @@
 #include <usart.h>
 
 int i=0;
-uint16_t CCR1_Val = 1680;
+uint16_t CCR1_Val = 3360;
 uint16_t PrescalerValue = 0;
 
 
@@ -87,7 +87,7 @@ TIM_TimeBaseInitTypeDef   TIM_TimeBaseStruct;
 	
 		// Configure Time Base with desired parameters
 		TIM_TimeBaseStruct.TIM_Prescaler = PrescalerValue;						// Internal clock = APBx*2/(prescaler+1) (168 MHz)
-		TIM_TimeBaseStruct.TIM_CounterMode = TIM_CounterMode_CenterAligned1;			// Timer counts from 0 to ARR and then update event occures
+		TIM_TimeBaseStruct.TIM_CounterMode = TIM_CounterMode_CenterAligned3;			// Timer counts from 0 to ARR and then update event occures
 		TIM_TimeBaseStruct.TIM_Period = 6719;												// ARR value, timer counts to this value (168MHz/25kHz-1)
 		TIM_TimeBaseStruct.TIM_ClockDivision = TIM_CKD_DIV2;					// clock division for BDTR (PWM only), specifies the clock division for dead-time (clk_internal/2)
 		TIM_TimeBaseStruct.TIM_RepetitionCounter = 0x00;							// generate update event on every downcount (RC+1), TIM1_RCR
