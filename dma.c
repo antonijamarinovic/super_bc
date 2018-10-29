@@ -15,6 +15,9 @@ uint16_t ADCConvertedValue2[4];
 float y;
 float z;
 
+
+//
+
 //DMA init
 void DMA_init(void) {
 		
