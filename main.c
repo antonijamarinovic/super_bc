@@ -14,6 +14,9 @@ timer2_init();
 CONTROL_A (1);
 CONTROL_B (1);
 
+
+
+
 ADC_SoftwareStartConv(ADC3);
 	
 while(1){
