@@ -8,7 +8,7 @@ ADC_InitTypeDef				ADC_InitStruct;
 ADC_CommonInitTypeDef		ADC_CommonInitStruct;
 NVIC_InitTypeDef			NVIC_InitStruct;
 
-//bla
+
 		// enable the ADC interface and GPIO clock
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE); 			//ADC's APB interface clock
 		RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC2, ENABLE);			// ADC2 interface clock
