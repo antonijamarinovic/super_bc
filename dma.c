@@ -159,7 +159,7 @@ void voltage_supercond(void){
 	sprintf(buff1, "Napon na superkondenzatoru UC4: %d [mV]\r\n",SuperConds.UC_4);
   send_message(buff1);
 }
-
+/////
 
 void temp_uout_ubat(void){
 	
