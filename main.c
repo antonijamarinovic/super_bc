@@ -1,7 +1,8 @@
 #include "main.h"
 
 int main(){
-	
+
+//je li radi ovako?
 	
 ADC_Init123();	
 TIM1_Pin_Config();
