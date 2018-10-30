@@ -2,7 +2,7 @@
 #include <stm32f4xx_gpio.h>
 
 void GPIO_init(void){
-	
+	//komentar dodan
 	GPIO_InitTypeDef         	GPIO_InitStruct;
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);	
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
