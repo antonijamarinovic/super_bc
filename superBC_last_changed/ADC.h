@@ -24,7 +24,7 @@
 #define UR16				GPIO_Pin_3
 
 
-
+//KOMENTAR
 void ADC_Init123(void);
 void DMA2_Stream1_IRQHandler(void);
 void ADC_IRQHandler(void) ;
