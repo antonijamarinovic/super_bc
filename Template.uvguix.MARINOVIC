@@ -3645,7 +3645,7 @@
       </Doc>
       <Doc>
         <Name>.\DMA.c</Name>
-        <ColumnNumber>5</ColumnNumber>
+        <ColumnNumber>7</ColumnNumber>
         <TopLine>157</TopLine>
         <CurrentLine>162</CurrentLine>
         <Folding>1</Folding>
@@ -3654,7 +3654,7 @@
       </Doc>
       <Doc>
         <Name>.\timer.c</Name>
-        <ColumnNumber>76</ColumnNumber>
+        <ColumnNumber>104</ColumnNumber>
         <TopLine>91</TopLine>
         <CurrentLine>107</CurrentLine>
         <Folding>1</Folding>
