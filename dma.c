@@ -160,7 +160,7 @@ void voltage_supercond(void){
   send_message(buff1);
 }
 ////////////novi komentar
-
+//dodan7
 
 
 
