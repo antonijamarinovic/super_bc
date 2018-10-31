@@ -115,11 +115,11 @@ NVIC_InitTypeDef			NVIC_InitStruct;
 		// Configure injected channel group
 		ADC_InjectedChannelConfig(ADC1,												// ADC peripheral
 								 ADC_Channel_3,														
-								 2,																				
+								 1,																				
 								 ADC_SampleTime_15Cycles);								// 15 sampling cycles
     ADC_InjectedChannelConfig(ADC1,												// ADC peripheral
     						ADC_Channel_2,														
-								1,																				
+								2,																				
 							  ADC_SampleTime_15Cycles);									// 15 sampling cycles
 		
 		//ADC_InjectedSequencerLengthConfig(ADC1, 1);
@@ -164,10 +164,10 @@ void  ADC_IRQHandler(void) {
 	if(ADC_GetITStatus(ADC1, ADC_IT_JEOC) == SET){
 		GPIO_ToggleBits(GPIOC, GPIO_Pin_13);
 		if(k%2==0){
-			Current.PRIM = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_1)*3230/0xFFF;		// get value from ADC1 injected channel
+			Current.PRIM = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_1)*3232/0xFFF;		// get value from ADC1 injected channel
 			k++;
 		}else{
-			Current.SEC = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_2)*3230/0xFFF;	
+			Current.SEC = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_2)*3232/0xFFF;	
 			k--;
 		}
 		ADC_ClearITPendingBit(ADC1, ADC_IT_JEOC);	

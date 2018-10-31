@@ -12,8 +12,8 @@ DMA_init();
 
 USART3_Init();
 timer2_init();
-CONTROL_A (1);
-CONTROL_B (1);
+CONTROL_A (0);
+CONTROL_B (0);
 
 ADC_SoftwareStartConv(ADC3);
 	
