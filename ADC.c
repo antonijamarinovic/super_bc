@@ -100,6 +100,8 @@ NVIC_InitTypeDef			NVIC_InitStruct;
 		
 		
 				// ADC1 injected group configure
+				
+				
 		ADC_InitStruct.ADC_ScanConvMode = ENABLE;		
     ADC_Init(ADC1, &ADC_InitStruct);		
 		
