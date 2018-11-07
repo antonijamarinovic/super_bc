@@ -39,6 +39,6 @@
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: DMA.h
 .\objects\main.o: ADC.h
+.\objects\main.o: GPIO.h
 .\objects\main.o: usart.h
 .\objects\main.o: timer.h
-.\objects\main.o: GPIO.h

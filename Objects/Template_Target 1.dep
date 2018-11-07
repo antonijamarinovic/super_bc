@@ -1,12 +1,12 @@
 Dependencies for Project 'Template', Target 'Target 1': (DO NOT MODIFY !)
-F (.\ADC.h)(0x5BD81D3E)()
+F (.\ADC.h)(0x5BE2EDE5)()
 F (.\DMA.h)(0x5BD83BAF)()
 F (.\usart.h)(0x5BD81C2A)()
 F (.\main.h)(0x5BD81C2A)()
 F (.\timer.h)(0x5BD81C2A)()
 F (.\GPIO.h)(0x5BD81C2A)()
-F (.\ADC.c)(0x5BD980D7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
-I (ADC.h)(0x5BD81D3E)
+F (.\ADC.c)(0x5BE2EDEC)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (ADC.h)(0x5BE2EDE5)
 I (Lib\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5BD81C2A)
 I (Lib\CMSIS\Include\core_cm4.h)(0x5BD81C2A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F218E)
@@ -43,7 +43,8 @@ I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5BD81C2A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
 I (DMA.h)(0x5BD83BAF)
-F (.\main.c)(0x5BD96CE6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (GPIO.h)(0x5BD81C2A)
+F (.\main.c)(0x5BE2D049)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (main.h)(0x5BD81C2A)
 I (Lib\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5BD81C2A)
 I (Lib\CMSIS\Include\core_cm4.h)(0x5BD81C2A)
@@ -79,12 +80,12 @@ I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5BD81C2A)
-I (ADC.h)(0x5BD81D3E)
+I (ADC.h)(0x5BE2EDE5)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
 I (DMA.h)(0x5BD83BAF)
+I (GPIO.h)(0x5BD81C2A)
 I (usart.h)(0x5BD81C2A)
 I (timer.h)(0x5BD81C2A)
-I (GPIO.h)(0x5BD81C2A)
 F (.\DMA.c)(0x5BD8AEF1)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\dma.o --omf_browse .\objects\dma.crf --depend .\objects\dma.d)
 I (DMA.h)(0x5BD83BAF)
 I (Lib\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5BD81C2A)
@@ -121,8 +122,9 @@ I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_can.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5BD81C2A)
-I (ADC.h)(0x5BD81D3E)
+I (ADC.h)(0x5BE2EDE5)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
+I (GPIO.h)(0x5BD81C2A)
 I (usart.h)(0x5BD81C2A)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599F218E)
 F (.\usart.c)(0x5BD81C2A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
@@ -163,7 +165,8 @@ I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5BD81C2A)
 I (.\DMA.h)(0x5BD83BAF)
-I (.\ADC.h)(0x5BD81D3E)
+I (.\ADC.h)(0x5BE2EDE5)
+I (.\GPIO.h)(0x5BD81C2A)
 F (.\timer.c)(0x5BD81C2A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
 I (.\timer.h)(0x5BD81C2A)
 I (Lib\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5BD81C2A)
@@ -201,8 +204,9 @@ I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dac.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dcmi.h)(0x5BD81C2A)
 I (Lib\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fsmc.h)(0x5BD81C2A)
 I (.\DMA.h)(0x5BD83BAF)
-I (.\ADC.h)(0x5BD81D3E)
+I (.\ADC.h)(0x5BE2EDE5)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599F218C)
+I (.\GPIO.h)(0x5BD81C2A)
 I (.\usart.h)(0x5BD81C2A)
 F (.\GPIO.c)(0x5BD8AAB4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\ -I Lib\CMSIS\Include -I Lib\CMSIS\Device\ST\STM32F4xx\Include -I Lib\STM32F4xx_StdPeriph_Driver\inc-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F415xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DHSE_VALUE="16000000" --C99-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
 I (.\GPIO.h)(0x5BD81C2A)

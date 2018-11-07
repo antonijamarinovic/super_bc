@@ -39,3 +39,4 @@
 .\objects\usart.o: .\DMA.h
 .\objects\usart.o: .\ADC.h
 .\objects\usart.o: .\DMA.h
+.\objects\usart.o: .\GPIO.h

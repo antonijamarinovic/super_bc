@@ -39,4 +39,5 @@
 .\objects\timer.o: .\ADC.h
 .\objects\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\timer.o: .\DMA.h
+.\objects\timer.o: .\GPIO.h
 .\objects\timer.o: .\usart.h

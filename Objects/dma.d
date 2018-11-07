@@ -38,5 +38,6 @@
 .\objects\dma.o: ADC.h
 .\objects\dma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\dma.o: DMA.h
+.\objects\dma.o: GPIO.h
 .\objects\dma.o: usart.h
 .\objects\dma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

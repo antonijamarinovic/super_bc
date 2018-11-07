@@ -1,18 +1,15 @@
 #include "ADC.h"
 
 
+extern uint16_t z;
+
+
 void ADC_Init123(void){
 	
 GPIO_InitTypeDef			GPIO_InitStruct;
 ADC_InitTypeDef				ADC_InitStruct;
 ADC_CommonInitTypeDef		ADC_CommonInitStruct;
 NVIC_InitTypeDef			NVIC_InitStruct;
-
-
-
-
-//bla bla bla Ivana
-
 
 
 		// enable the ADC interface and GPIO clock
@@ -158,6 +155,12 @@ struct
 }Current;
 
 volatile uint16_t k = 0;
+volatile uint16_t brojac1=0;
+volatile uint16_t brojac2=0;
+volatile uint16_t ref_PRIM=0;
+volatile uint16_t ref_SEC=0;
+volatile uint16_t flag1=0;
+volatile uint16_t flag2=0;
 
 void  ADC_IRQHandler(void) {
 	
@@ -166,13 +169,33 @@ void  ADC_IRQHandler(void) {
 		if(k%2==0){
 			Current.PRIM = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_1)*3232/0xFFF;		// get value from ADC1 injected channel
 			k++;
+			if(brojac1<N){												
+				ref_PRIM+=Current.PRIM;
+				brojac1++;
+			}
+		 	
+		  if (brojac1==N && !(flag1)){	//set reference voltage of primar before driver is enabled
+			ref_PRIM= ref_PRIM/N;
+			flag1=1;
+			CONTROL_A (1);
+			}
+			
 		}else{
 			Current.SEC = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_2)*3232/0xFFF;	
 			k--;
+			if(brojac2<N){											
+				ref_SEC+=Current.SEC;
+				brojac2++;
+			}
+			
+		  if (brojac2==N && !(flag2)){ //set reference voltage of primar before driver is enabled
+				ref_SEC= ref_SEC/N;
+				CONTROL_B (1);
+				flag2=1;
+			}	
 		}
 		ADC_ClearITPendingBit(ADC1, ADC_IT_JEOC);	
 	
 	}
 }
-
 

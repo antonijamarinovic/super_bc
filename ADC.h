@@ -9,6 +9,7 @@
 
 #include "stdio.h"
 #include "DMA.h"
+#include "GPIO.h"
 
 #define UC1					GPIO_Pin_0
 #define UC2					GPIO_Pin_1
@@ -23,8 +24,8 @@
 #define UR8					GPIO_Pin_2
 #define UR16				GPIO_Pin_3
 
+#define N		15 			//number of measurements for reference voltage of primar and secundar
 
-//KOMENTAR
 void ADC_Init123(void);
 void DMA2_Stream1_IRQHandler(void);
 void ADC_IRQHandler(void) ;
