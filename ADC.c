@@ -174,6 +174,7 @@ void  ADC_IRQHandler(void) {
 				brojac1++;
 			}
 		 	
+			
 		  if (brojac1==N && !(flag1)){	//set reference voltage of primar before driver is enabled
 			ref_PRIM= ref_PRIM/N;
 			flag1=1;
