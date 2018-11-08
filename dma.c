@@ -10,17 +10,11 @@
 
 DMA_InitTypeDef			DMA_InitStruct;
 NVIC_InitTypeDef			NVIC_InitStruct;
-uint16_t ADCConvertedValue1[4];
-uint16_t ADCConvertedValue2[4];
-float y;
-float z;
-//int BUFFER_HEAD, BUFFER_TAIL;
-//float BUFFER[buffsize];
+
 
 //DMA init
 void DMA_init(void) {
-		//BUFFER_HEAD=0;
-	  //BUFFER_TAIL=0;
+	
 	  //configure DMA - ADC3
 		DMA_InitStruct.DMA_Channel = DMA_Channel_2;
 		DMA_InitStruct.DMA_PeripheralBaseAddr = ADC3_DR_ADDRESS;
@@ -104,6 +98,10 @@ struct{
 		uint16_t UC_4;
 }SuperConds;
 
+
+uint16_t ADCConvertedValue1[4];
+uint16_t ADCConvertedValue2[4];
+
 void DMA2_Stream1_IRQHandler(void) {
 
 	if(DMA_GetITStatus(DMA2_Stream1, DMA_IT_TCIF1) == SET){
@@ -127,10 +125,14 @@ void DMA2_Stream1_IRQHandler(void) {
 }	
 
 
-volatile uint16_t buff[5];
-volatile uint16_t suma=0;
-volatile uint16_t r=0;
-volatile uint16_t AVR_U_TEMPOK;
+volatile uint16_t buff1[5];
+volatile uint16_t buff2[5];
+volatile uint16_t suma1=0;
+volatile uint16_t suma2=0;
+volatile uint16_t r1=0;
+volatile uint16_t r2=0;
+volatile uint16_t U_TEMPOK_filtered;
+volatile uint16_t U_TEMBAT_filtered;
 	
 void DMA2_Stream2_IRQHandler(void) {
    
@@ -140,16 +142,17 @@ void DMA2_Stream2_IRQHandler(void) {
 		Voltage.U_TEMPBAT = ADCConvertedValue2[2]*3230/0xFFF; 
     Voltage.U_TEMPOK = ADCConvertedValue2[3]*3230/0xFFF; 
 		 
+ 	   suma1=suma1-buff1[r1%5];					//filtering voltage U_TEMPOK
+		 buff1[r1%5]=Voltage.U_TEMPOK;
+		 suma1+= buff1[r1%5];
+		 U_TEMPOK_filtered = suma1/5;
+		 r1++;
 		 
-		 suma=suma-buff[r%5];
-		 buff[r]=Voltage.U_TEMPOK;
-		 suma+= buff[r%5];
-		 
-		 AVR_U_TEMPOK = suma/(r%5+1);
-		 
-		 
-		 
-		 r++;
+		 suma2=suma2-buff2[r2%5];					//filtering	voltage U_TEMBAT
+		 buff2[r2%5]=Voltage.U_TEMPBAT;
+		 suma2+= buff2[r2%5];
+		 U_TEMBAT_filtered = suma2/5;
+		 r2++;
 		 
 		DMA_ClearITPendingBit(DMA2_Stream2, DMA_IT_TCIF2);			// clear pending bit
     ADC_SoftwareStartConv(ADC3);
@@ -174,6 +177,8 @@ void voltage_supercond(void){
 }
 
 
+float y;
+float z;
 
 void temp_uout_ubat(void){
 	
@@ -184,33 +189,13 @@ void temp_uout_ubat(void){
 	sprintf(buff2, "Napon na baterijama UBAT: %d [mV]\r\n",Voltage.U_BAT);
   send_message(buff2);
 	
-	y = ((A-sqrt(A*A+4*B*(C-(Voltage.U_TEMPBAT))))/(2*(-B)) + 30);
+	y = ((A-sqrt(A*A+4*B*(C-(U_TEMBAT_filtered))))/(2*(-B)) + 30);
 	sprintf(buff2, "Temperatura baterija: %4.1f[Celsius]\r\n",y);
   send_message(buff2);
 	
 	
-	z=((A-sqrt(A*A+4*B*(C-(Voltage.U_TEMPOK))))/(2*(-B)) + 30); //datasheet
+	z=((A-sqrt(A*A+4*B*(C-(U_TEMPOK_filtered))))/(2*(-B)) + 30); 
   sprintf(buff2, "Temperatura okoline: %4.1f [Celsius]\r\n", z);
   send_message(buff2);
 }
 
-//float average_temp (uint16_t* x) {
-//	float ret;
-//	ret=0; 
-//	*x=0;
-//	
-//	if (BUFFER_HEAD != BUFFER_TAIL){
-//			
-//			*x = BUFFER[BUFFER_TAIL];
-//			BUFFER_TAIL++;
-//			if (BUFFER_TAIL == buffsize) BUFFER_TAIL = 0;
-//			ret = 1;
-//		  while (*x!=0){
-//			ret=ret+*x;
-//			ret=ret/5;
-//			x++;	
-//			}
-//		
-//		  }
-//	   	return ret;
-//}
