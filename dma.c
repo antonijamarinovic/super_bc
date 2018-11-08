@@ -11,7 +11,8 @@
 DMA_InitTypeDef			DMA_InitStruct;
 NVIC_InitTypeDef			NVIC_InitStruct;
 
-
+uint16_t ADCConvertedValue1[4];
+uint16_t ADCConvertedValue2[4];
 //DMA init
 void DMA_init(void) {
 	
@@ -99,8 +100,7 @@ struct{
 }SuperConds;
 
 
-uint16_t ADCConvertedValue1[4];
-uint16_t ADCConvertedValue2[4];
+
 
 void DMA2_Stream1_IRQHandler(void) {
 
