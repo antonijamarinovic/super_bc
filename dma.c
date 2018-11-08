@@ -147,6 +147,8 @@ void DMA2_Stream2_IRQHandler(void) {
 		 
 		 AVR_U_TEMPOK = suma/(r%5+1);
 		 
+		 
+		 
 		 r++;
 		 
 		DMA_ClearITPendingBit(DMA2_Stream2, DMA_IT_TCIF2);			// clear pending bit
