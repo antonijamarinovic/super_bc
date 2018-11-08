@@ -120,10 +120,7 @@ NVIC_InitTypeDef			NVIC_InitStruct;
     						ADC_Channel_2,														
 								2,																				
 							  ADC_SampleTime_15Cycles);									// 15 sampling cycles
-		
-		//ADC_InjectedSequencerLengthConfig(ADC1, 1);
-		//ADC_SetInjectedOffset(ADC1, ADC_Channel_3, ADC_InjectedChannel_3);
-		// end of conversion for injected channel
+	
 	
 		// enable DMA for ADCs
       ADC_DMACmd(ADC2, ENABLE);

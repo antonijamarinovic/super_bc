@@ -125,21 +125,32 @@ void DMA2_Stream1_IRQHandler(void) {
 	}	
 	
 }	
+
+
+volatile uint16_t buff[5];
+volatile uint16_t suma=0;
+volatile uint16_t r=0;
+volatile uint16_t AVR_U_TEMPOK;
 	
 void DMA2_Stream2_IRQHandler(void) {
-  //uint16_t tempok;
-	//float rez; 
+   
 	 if(DMA_GetITStatus(DMA2_Stream2, DMA_IT_TCIF2) == SET){
 		Voltage.U_OUT = ADCConvertedValue2[0]*3230/0xFFF; 
 		Voltage.U_BAT = ADCConvertedValue2[1]*3230/0xFFF; 
 		Voltage.U_TEMPBAT = ADCConvertedValue2[2]*3230/0xFFF; 
     Voltage.U_TEMPOK = ADCConvertedValue2[3]*3230/0xFFF; 
-		//tempok=Voltage.U_TEMPOK;
-		
-		//rez=average_temp(&tempok);
-
+		 
+		 
+		 suma=suma-buff[r%5];
+		 buff[r]=Voltage.U_TEMPOK;
+		 suma+= buff[r%5];
+		 
+		 AVR_U_TEMPOK = suma/(r%5+1);
+		 
+		 r++;
+		 
 		DMA_ClearITPendingBit(DMA2_Stream2, DMA_IT_TCIF2);			// clear pending bit
-		ADC_SoftwareStartConv(ADC3);
+    ADC_SoftwareStartConv(ADC3);
 	}
 }
 
