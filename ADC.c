@@ -194,6 +194,7 @@ void  ADC_IRQHandler(void) {
 				flag2=1;
 			}	
 		}
+		//
 		ADC_ClearITPendingBit(ADC1, ADC_IT_JEOC);	
 	
 	}
