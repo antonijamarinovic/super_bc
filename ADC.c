@@ -158,8 +158,8 @@ volatile uint16_t brojac1=0;
 volatile uint16_t brojac2=0;
 volatile uint16_t ref_PRIM=0;
 volatile uint16_t ref_SEC=0;
-volatile uint16_t flag1=0;
-volatile uint16_t flag2=0;
+volatile uint16_t f1=0;
+volatile uint16_t f2=0;
 
 void  ADC_IRQHandler(void) {
 	
@@ -187,6 +187,9 @@ void  ADC_IRQHandler(void) {
 				ref_SEC+=Current.SEC;
 				brojac2++;
 			}
+			
+			
+			
 			
 		  if (brojac2==N && !(flag2)){ //set reference voltage of primar before driver is enabled
 				ref_SEC= ref_SEC/N;
