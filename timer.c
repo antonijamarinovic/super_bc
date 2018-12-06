@@ -150,7 +150,9 @@ void TIM2_IRQHandler(void){
 	
 					temp_uout_ubat();
 					
-				}		
+				}	else if (c=='i'){	
+					current_prim_sec();
 		}
 	}
+}
 }

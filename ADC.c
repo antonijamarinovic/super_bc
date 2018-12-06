@@ -1,7 +1,7 @@
 #include "ADC.h"
+#include "math.h"
 
 
-extern uint16_t z;
 
 
 void ADC_Init123(void){
@@ -148,58 +148,80 @@ NVIC_InitTypeDef			NVIC_InitStruct;
 
 struct
 {
+		int16_t PRIM;
+		int16_t SEC;
+		
+}current;
+
+uint16_t pom;
+
+struct
+{
 		uint16_t PRIM;
 		uint16_t SEC;
 		
-}Current;
+}voltage;
 
 volatile uint16_t k = 0;
+volatile uint16_t c1=0;
 volatile uint16_t brojac1=0;
 volatile uint16_t brojac2=0;
 volatile uint16_t ref_PRIM=0;
 volatile uint16_t ref_SEC=0;
-volatile uint16_t f1=0;
-volatile uint16_t f2=0;
+volatile uint16_t f1=0; // status flag,  becomes 1 when the reference voltage is set
+volatile uint16_t f2=0; // status flag,  becomes 1 when reference voltage is set
 
 void  ADC_IRQHandler(void) {
 	
 	if(ADC_GetITStatus(ADC1, ADC_IT_JEOC) == SET){
 		GPIO_ToggleBits(GPIOC, GPIO_Pin_13);
-		if(k%2==0){
-			Current.PRIM = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_1)*3232/0xFFF;		// get value from ADC1 injected channel
+		if(k%2==0){  
 			k++;
-			if(brojac1<N){												
-				ref_PRIM+=Current.PRIM;
-				brojac1++;
+			voltage.PRIM = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_1)*3232/0xFFF;		// get value from ADC1 injected channel
+     		
+		    if(brojac1<N){												
+				   ref_PRIM+=voltage.PRIM;
+				   brojac1++;
 			}
-		 	
+			  if (brojac1==N && !(f1)){	//set reference voltage of primar before driver is enabled
+			     ref_PRIM= ref_PRIM/N;
 			
-		  if (brojac1==N && !(flag1)){	//set reference voltage of primar before driver is enabled
-			ref_PRIM= ref_PRIM/N;
-			flag1=1;
-			CONTROL_A (1);
+		       CONTROL_A (1);
+			     f1=1;
 			}
+	  current.PRIM = (voltage.PRIM-ref_PRIM)*20;  // 20=1000/50 (struja u mA- zato se mnozilo s 1000, 50 je zbog pojacala koji je 10x i otpora od 5 mOhma) 
 			
 		}else{
-			Current.SEC = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_2)*3232/0xFFF;	
-			k--;
-			if(brojac2<N){											
-				ref_SEC+=Current.SEC;
+			  k--;
+			  voltage.SEC = ADC_GetInjectedConversionValue(ADC1, ADC_InjectedChannel_2)*3232/0xFFF;
+			  
+      	if(brojac2<N){											
+				ref_SEC+=voltage.SEC;
 				brojac2++;
-			}
+			}			
+		
 			
-			
-			
-			
-		  if (brojac2==N && !(flag2)){ //set reference voltage of primar before driver is enabled
+	      if (brojac2==N && !(f2)){ //set reference voltage of primar before driver is enabled
 				ref_SEC= ref_SEC/N;
+				
 				CONTROL_B (1);
-				flag2=1;
-			}	
+				f2=1;
+			}
+     	current.SEC = (voltage.SEC-ref_SEC)*20;	// 20=1000/50 (struja u mA-zato se mnozilo s 1000, 50 je zbog pojacala koji je 10x i otpora od 5 mOhma) 
+			
 		}
 		//
 		ADC_ClearITPendingBit(ADC1, ADC_IT_JEOC);	
 	
 	}
+}
+
+void current_prim_sec(void){
+	char buff1[500];
+  sprintf(buff1, "Struja primara : %d [mA]\r\n", current.PRIM);
+  send_message(buff1);
+	
+	sprintf(buff1, "Struja sekundara : %d [mA]\r\n", current.SEC);
+  send_message(buff1);
 }
 

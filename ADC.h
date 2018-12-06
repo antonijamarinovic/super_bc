@@ -24,10 +24,11 @@
 #define UR8					GPIO_Pin_2
 #define UR16				GPIO_Pin_3
 
-#define N		15 			//number of measurements for reference voltage of primar and secundar
+#define N		30 			//number of measurements for reference voltage of primar and secundar
 
 void ADC_Init123(void);
 void DMA2_Stream1_IRQHandler(void);
 void ADC_IRQHandler(void) ;
+void current_prim_sec(void);
 
 #endif

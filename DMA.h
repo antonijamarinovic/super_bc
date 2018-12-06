@@ -19,5 +19,5 @@ void temp_uout_ubat(void);
 void DMA_init(void);
 void DMA2_Stream1_IRQHandler(void);
 void DMA2_Stream2_IRQHandler(void);
-//float average_temp (uint16_t* x);
+
 #endif

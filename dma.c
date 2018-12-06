@@ -14,6 +14,7 @@ NVIC_InitTypeDef			NVIC_InitStruct;
 uint16_t ADCConvertedValue1[4];
 uint16_t ADCConvertedValue2[4];
 //DMA init
+
 void DMA_init(void) {
 	
 	  //configure DMA - ADC3
@@ -127,12 +128,17 @@ void DMA2_Stream1_IRQHandler(void) {
 
 volatile uint16_t buff1[5];
 volatile uint16_t buff2[5];
-volatile uint16_t suma1=0;
-volatile uint16_t suma2=0;
+volatile uint16_t buff3[5];
+volatile uint16_t sum1=0;
+volatile uint16_t sum2=0;
+volatile uint16_t sum3=0;
+
 volatile uint16_t r1=0;
 volatile uint16_t r2=0;
+volatile uint16_t r3=0;
 volatile uint16_t U_TEMPOK_filtered;
 volatile uint16_t U_TEMBAT_filtered;
+volatile uint16_t U_BAT_filtered;
 	
 void DMA2_Stream2_IRQHandler(void) {
    
@@ -142,17 +148,24 @@ void DMA2_Stream2_IRQHandler(void) {
 		Voltage.U_TEMPBAT = ADCConvertedValue2[2]*3230/0xFFF; 
     Voltage.U_TEMPOK = ADCConvertedValue2[3]*3230/0xFFF; 
 		 
- 	   suma1=suma1-buff1[r1%5];					//filtering voltage U_TEMPOK
+ 	   sum1=sum1-buff1[r1%5];					//filtering voltage U_TEMPOK
 		 buff1[r1%5]=Voltage.U_TEMPOK;
-		 suma1+= buff1[r1%5];
-		 U_TEMPOK_filtered = suma1/5;
+		 sum1+= buff1[r1%5];
+		 U_TEMPOK_filtered = sum1/5;
 		 r1++;
 		 
-		 suma2=suma2-buff2[r2%5];					//filtering	voltage U_TEMBAT
+		 sum2=sum2-buff2[r2%5];					//filtering	voltage U_TEMBAT
 		 buff2[r2%5]=Voltage.U_TEMPBAT;
-		 suma2+= buff2[r2%5];
-		 U_TEMBAT_filtered = suma2/5;
+		 sum2+= buff2[r2%5];
+		 U_TEMBAT_filtered = sum2/5;
 		 r2++;
+		 
+		 sum3=sum3-buff3[r2%5];					//filtering	voltage U_BAT
+		 buff3[r2%5]=Voltage.U_BAT;
+		 sum3+= buff2[r2%5];
+		 U_BAT_filtered = sum2/5;
+		 r3++;
+		 
 		 
 		DMA_ClearITPendingBit(DMA2_Stream2, DMA_IT_TCIF2);			// clear pending bit
     ADC_SoftwareStartConv(ADC3);
