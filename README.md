@@ -6,3 +6,7 @@ Dodan dio s izračunavanjem referenci primara i sekundara. Prije omogućavanja d
 
 izmjena 08.11
 Dodan dio s filtiranjem napona za temperature baterije i okoline pomoću circular buffer
+
+
+izmjena 7.12
+uljepšavanje koda
