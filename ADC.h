@@ -10,6 +10,7 @@
 #include "stdio.h"
 #include "DMA.h"
 #include "GPIO.h"
+#include "usart.h"
 
 #define UC1					GPIO_Pin_0
 #define UC2					GPIO_Pin_1

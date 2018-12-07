@@ -1,6 +1,7 @@
 #include <GPIO.h>
 #include <stm32f4xx_gpio.h>
 
+
 void GPIO_init(void){
 	//komentar dodan novi
 	GPIO_InitTypeDef         	GPIO_InitStruct;
@@ -23,9 +24,6 @@ void GPIO_init(void){
         GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
 				GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_NOPULL ;
         GPIO_Init(GPIOC, &GPIO_InitStruct); 
-				
-				
-
 	
 }
 

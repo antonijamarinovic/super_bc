@@ -2404,7 +2404,7 @@ Memory Map of the image
     0x08002c04   0x08002c04   0x0000000e   Code   RO         5470    i._is_digit         c_w.l(__printf_wp.o)
     0x08002c12   0x08002c12   0x00000002   PAD
     0x08002c14   0x08002c14   0x00000070   Code   RO            6    i.current_prim_sec  adc.o
-    0x08002c84   0x08002c84   0x00000034   Code   RO          167    i.main              main.o
+    0x08002c84   0x08002c84   0x00000034   Code   RO          170    i.main              main.o
     0x08002cb8   0x08002cb8   0x00000024   Code   RO          256    i.send_message      usart.o
     0x08002cdc   0x08002cdc   0x00000260   Code   RO          203    i.temp_uout_ubat    dma.o
     0x08002f3c   0x08002f3c   0x00000074   Code   RO          322    i.timer2_init       timer.o
