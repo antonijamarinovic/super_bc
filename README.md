@@ -10,3 +10,6 @@ Dodan dio s filtiranjem napona za temperature baterije i okoline pomoću circula
 
 izmjena 7.12
 uljepšavanje koda
+
+izmjena 31.1
+dodan Altium Sheet 
