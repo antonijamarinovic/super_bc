@@ -1,0 +1,369 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://D:\Altium Designer\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8.5.2018.</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">10:12:44</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc" class="file"><acronym title="C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc">C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">15</td></tr>
+</table>
+</td>
+</table><a name="IDU0HI42B2ZIGJN5QKNCI45SG2RGQVT2N5Y2IAPSLCXZAN5PD0RQ5K"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDQ1CEFRVLVZ2PKQ2A32CNWFAMAGI1RPPL4LOCC5G1FGPLYJD2B4MB">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDXPG5SH2EMCIODWHFYV51JYHAYFP5YZUWPOMYIQLLPQEX5LEXZJOK">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVBX4NQEQVGX5OZGMVBRAV0TO1E45DUOUJIDZ24KD1RXT5IYCMSZ">Clearance Constraint (Gap=6mil) (All),(All)</a></td>
+<td class="column2">15</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID5VVYTLJCRUMSGBAODG1BOICGEBWO1TLOGUS2BKDBVKWGVRUIISAG">Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID0VQ3VZA1PXAILUQZ000Z0FYEXICE4HVDVU1HGDI4XLIAESU5JCVB">Width Constraint (Min=10mil) (Max=200mil) (Preferred=12mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMXRWVVLLQXPCLBMS5H25EAFWJFLRS0AUROTXXCK5NBDD211DZLRF">Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDE1VNRNSL3QBQCHOOM1OWKRQBYDMTWJNCJZVBB4IU0ATUHZEIFBKG">Hole Size Constraint (Min=1mil) (Max=125.984mil) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJRRUYLJHAM15KPHEKNODMRUTNN04DUTOY4KZFZPLIOQIHYALELZC">Hole To Hole Clearance (Gap=10mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDSWHZAKGY0MTFQI3LYIEZCF4EDIGW1TJSO0VWVOEJIUOJJXP31ME">Minimum Solder Mask Sliver (Gap=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ42JZAW2A1RRDJM0PJ4CCRCUNLSELOWUZ0DCERFFPU0HBTVJY4SM">Silk To Solder Mask (Clearance=0mil) (IsPad),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDU42QUCQ45UKKPZUZA0LMKRVO5HUXKDVU5XVRCFGRPC5HZFNM03NO">Silk to Silk (Clearance=0mil) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDNH1A5XWCJ4IBBFWMR2R4HJUOSDPTIF23ZO4OLWOT5RIVJRFWZ22P">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">15</td>
+</tr>
+</table><br><a name="IDVBX4NQEQVGX5OZGMVBRAV0TO1E45DUOUJIDZ24KD1RXT5IYCMSZ"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=6mil) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.941mil|Location2.X=4228.191mil|Location1.Y=4452.911mil|Location2.Y=4460.161mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.941mil|Location2.X=4228.191mil|Location1.Y=4452.911mil|Location2.Y=4460.161mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (3039.379mil,2055.857mil) (3079.439mil,2087.747mil) on Top Layer And Pad V17-2(3089.37mil,2176.772mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.941mil|Location2.X=4228.191mil|Location1.Y=4617.822mil|Location2.Y=4625.072mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.941mil|Location2.X=4228.191mil|Location1.Y=4617.822mil|Location2.Y=4625.072mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (3039.379mil,2265.856mil) (3079.438mil,2297.746mil) on Top Layer And Pad V17-2(3089.37mil,2176.772mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4213.067mil|Location2.X=4220.317mil|Location1.Y=5133.963mil|Location2.Y=5141.213mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4213.067mil|Location2.X=4220.317mil|Location1.Y=5133.963mil|Location2.Y=5141.213mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (3031.505mil,2781.998mil) (3071.564mil,2813.887mil) on Top Layer And Pad V16-2(3081.496mil,2692.913mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4213.068mil|Location2.X=4220.318mil|Location1.Y=4969.052mil|Location2.Y=4976.302mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4213.068mil|Location2.X=4220.318mil|Location1.Y=4969.052mil|Location2.Y=4976.302mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (3031.505mil,2571.999mil) (3071.564mil,2603.888mil) on Top Layer And Pad V16-2(3081.496mil,2692.913mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4223.304mil|Location2.X=4230.554mil|Location1.Y=5506.454mil|Location2.Y=5513.704mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4223.304mil|Location2.X=4230.554mil|Location1.Y=5506.454mil|Location2.Y=5513.704mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (3041.742mil,3109.4mil) (3081.801mil,3141.29mil) on Top Layer And Pad V15-2(3091.732mil,3230.315mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4223.304mil|Location2.X=4230.554mil|Location1.Y=5671.365mil|Location2.Y=5678.615mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4223.304mil|Location2.X=4230.554mil|Location1.Y=5671.365mil|Location2.Y=5678.615mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (3041.742mil,3319.399mil) (3081.801mil,3351.289mil) on Top Layer And Pad V15-2(3091.732mil,3230.315mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.784mil|Location2.X=4228.034mil|Location1.Y=5971.611mil|Location2.Y=5978.861mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.784mil|Location2.X=4228.034mil|Location1.Y=5971.611mil|Location2.Y=5978.861mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (3039.222mil,3574.558mil) (3079.281mil,3606.447mil) on Top Layer And Pad V14-2(3089.213mil,3695.472mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.784mil|Location2.X=4228.034mil|Location1.Y=6136.522mil|Location2.Y=6143.772mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4220.784mil|Location2.X=4228.034mil|Location1.Y=6136.522mil|Location2.Y=6143.772mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (3039.222mil,3784.557mil) (3079.281mil,3816.446mil) on Top Layer And Pad V14-2(3089.213mil,3695.472mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3612.857mil|Location2.X=3620.107mil|Location1.Y=4122.518mil|Location2.Y=4129.768mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3612.857mil|Location2.X=3620.107mil|Location1.Y=4122.518mil|Location2.Y=4129.768mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (2431.295mil,1725.464mil) (2471.354mil,1757.353mil) on Top Layer And Pad V6-2(2481.285mil,1846.379mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3612.857mil|Location2.X=3620.107mil|Location1.Y=4287.428mil|Location2.Y=4294.678mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3612.857mil|Location2.X=3620.107mil|Location1.Y=4287.428mil|Location2.Y=4294.678mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (2431.295mil,1935.463mil) (2471.354mil,1967.353mil) on Top Layer And Pad V6-2(2481.285mil,1846.379mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3286.376mil|Location2.X=3293.626mil|Location1.Y=4171.385mil|Location2.Y=4178.635mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3286.376mil|Location2.X=3293.626mil|Location1.Y=4171.385mil|Location2.Y=4178.635mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (2104.813mil,1774.302mil) (2144.872mil,1806.191mil) on Top Layer And Pad V5-2(2094.882mil,1895.276mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1671.621mil|Location2.X=1678.871mil|Location1.Y=4213.63mil|Location2.Y=4220.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1671.621mil|Location2.X=1678.871mil|Location1.Y=4213.63mil|Location2.Y=4220.88mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (490.059mil,1816.546mil) (530.118mil,1848.436mil) on Top Layer And Pad V2-2(480.128mil,1937.52mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2024.077mil|Location2.X=2031.327mil|Location1.Y=4328.57mil|Location2.Y=4335.82mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2024.077mil|Location2.X=2031.327mil|Location1.Y=4328.57mil|Location2.Y=4335.82mil|Absolute=True">Clearance Constraint: (5.059mil &lt; 6mil) Between Area Fill (842.515mil,1976.604mil) (882.574mil,2008.494mil) on Top Layer And Pad V1-2(892.506mil,1887.52mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2024.077mil|Location2.X=2031.327mil|Location1.Y=4163.659mil|Location2.Y=4170.909mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2024.077mil|Location2.X=2031.327mil|Location1.Y=4163.659mil|Location2.Y=4170.909mil|Absolute=True">Clearance Constraint: (5mil &lt; 6mil) Between Area Fill (842.515mil,1766.605mil) (882.574mil,1798.495mil) on Top Layer And Pad V1-2(892.506mil,1887.52mil) on Top Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinovi%C4%87\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4255.096mil|Location2.X=4262.346mil|Location1.Y=6180.001mil|Location2.Y=6187.251mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Tin\OneDrive - fer.hr\FER_work\Studenti\Antonija i Ivana Marinoviæ\Diplomski seminar\BC_6_5_2018\BC_6_5_2018\PCB.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4255.096mil|Location2.X=4262.346mil|Location1.Y=6180.001mil|Location2.Y=6187.251mil|Absolute=True">Clearance Constraint: (5.161mil &lt; 6mil) Between Area Fill (3039.222mil,3784.557mil) (3079.281mil,3816.446mil) on Top Layer And Track (3126.968mil,3839.567mil)(3143.209mil,3823.327mil) on Top Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

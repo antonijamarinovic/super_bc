@@ -1,0 +1,27 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "2.95"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2496201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "pojaèalo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D2(F za pojacalo(2))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "2.95"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2496201"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "pojaèalo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=A- Pin=D2-2
+Added Pin To Net: NetName=A+ Pin=D2-3
+Added Pin To Net: NetName=V- Pin=D2-4
+Added Pin To Net: NetName=B+ Pin=D2-5
+Added Pin To Net: NetName=B- Pin=D2-6
+Added Pin To Net: NetName=NetD2_7 Pin=D2-7
+Added Pin To Net: NetName=3.3V Pin=D2-8
+Added Pin To Net: NetName=UR16 Pin=D2-9
+Added Pin To Net: NetName=1.65V Pin=D2-10
+Added Pin To Net: NetName=VDDA Pin=D2-11
+Added Pin To Net: NetName=1.65V Pin=D2-12
+Added Pin To Net: NetName=UR8 Pin=D2-13
+Added Pin To Net: NetName=VDDA Pin=D2-14
+Added Member To Class: ClassName=Integrirane_komponente Member=Component D2 INA2331

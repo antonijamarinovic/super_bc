@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=D2 Old Footprint=MSOP New Footprint=MSOP za op.pojacalo
+Added Pin To Net: NetName=NetD2_6 Pin=D2-7
+Added Pin To Net: NetName=VDDA Pin=D2-8
+Added Room: Name=PART_2

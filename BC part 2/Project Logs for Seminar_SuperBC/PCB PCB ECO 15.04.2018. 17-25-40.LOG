@@ -1,0 +1,10 @@
+Added Component: Designator=R8(otpornik R8, R16)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R16(otpornik R8, R16)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=A+ Pin=R8-3
+Added Pin To Net: NetName=A- Pin=R8-4
+Added Pin To Net: NetName=C+ Pin=R16-1
+Added Pin To Net: NetName=B+ Pin=R16-3
+Added Pin To Net: NetName=B- Pin=R16-4

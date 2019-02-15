@@ -1,0 +1,221 @@
+Removed Member From Class: ClassName=Integrirane_komponente Member=GND3
+Change Component Footprint: Designator=C49 Old Footprint=C1210_L New Footprint=C0805
+Change Component Footprint: Designator=R65 Old Footprint=CAP_0603 New Footprint=C1206
+Change Component Footprint: Designator=R26 Old Footprint=CAP_0805 New Footprint=C1210_L
+Change Component Footprint: Designator=R67 Old Footprint=CAP_0805 New Footprint=C1210_L
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.0859"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "2329422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "ferrite bead"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.0859"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "2329422"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "ferrite bead"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "1153399"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "Resistor 1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "1153399"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "Resistor 1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "FArnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "1153399"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "Resistor 1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "cijena (funte)"; Value = "0.206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "dobavljaè"; Value = "FArnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "kataloški broj"; Value = "1153399"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "opis komponente"; Value = "Resistor 1M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1M"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2320931"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF"; VariantName = "[No Variations]"
+Added Component: Designator=C33(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2320931"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2320931"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Added Component: Designator=C34(C1210_L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2320931"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1856515"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C36(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.141"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1856515"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	1759075"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 330pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330pF"; VariantName = "[No Variations]"
+Added Component: Designator=C39(CAP_0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0176"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	1759075"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Capacitor 330pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.619"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "9696032"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Electrolytic Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47uF"; VariantName = "[No Variations]"
+Added Component: Designator=C109(SMD_CAP_RAD_8X10.2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.619"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "9696032"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Electrolytic Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.672"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1828081"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Inductor 33uH, 1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Added Component: Designator=L2(0402-A)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.672"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1828081"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Inductor 33uH, 1.5A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10mH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R18(AXIAL-0.4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2447551"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor 100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Added Component: Designator=R78(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2447551"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor 100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.102"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	2338036"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "90K9"; VariantName = "[No Variations]"
+Added Component: Designator=R79(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.102"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	2338036"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "90K9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.237"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1577673"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor 10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Component: Designator=R80(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.237"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1577673"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor 10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.243"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	2211962"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Schottky Rectifier, 200 V, 1 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V7(DO-214AC)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.243"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "	2211962"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Schottky Rectifier, 200 V, 1 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=U_bat_temp Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C33-1
+Added Pin To Net: NetName=U_bat_temp Pin=C33-2
+Added Pin To Net: NetName=GND Pin=C34-1
+Added Pin To Net: NetName=BAT+ Pin=C34-2
+Added Pin To Net: NetName=GND Pin=C36-1
+Added Pin To Net: NetName=BAT+ Pin=C36-2
+Added Pin To Net: NetName=GND Pin=C39-1
+Added Pin To Net: NetName=12.5V Pin=C39-2
+Added Pin To Net: NetName=BAT+ Pin=C109-1
+Added Pin To Net: NetName=GND Pin=C109-2
+Added Pin To Net: NetName=U_bat_temp Pin=D7A-2
+Added Pin To Net: NetName=BAT+ Pin=L2-1
+Added Pin To Net: NetName=GND Pin=R18-1
+Added Pin To Net: NetName=12.5V Pin=R18-2
+Added Pin To Net: NetName=BAT+ Pin=R78-1
+Added Pin To Net: NetName=12.5V Pin=R79-1
+Added Pin To Net: NetName=U_bat_temp Pin=R79-2
+Added Pin To Net: NetName=12.5V Pin=R80-1
+Added Pin To Net: NetName=GND Pin=R80-2
+Added Pin To Net: NetName=U_bat_temp Pin=V7-2
+Change Net Name : Old Net Name=U_bat_temp New Net Name=NetC33_2
+Added Pin To Net: NetName=NetD5_1 Pin=L2-2
+Added Pin To Net: NetName=NetD5_1 Pin=V7-1
+Added Net: Name=NetD5_1
+Added Pin To Net: NetName=NetD5_4 Pin=R78-2
+Added Net: Name=NetD5_4
+Added Class: Name=SuperBC
+Added Member To Class: ClassName=Integrirane_komponente Member=Component C33 10uF
+Added Member To Class: ClassName=Integrirane_komponente Member=Component C34 10uF
+Added Member To Class: ClassName=Integrirane_komponente Member=Component C36 100nF
+Added Member To Class: ClassName=Integrirane_komponente Member=Component C39 330pF
+Added Member To Class: ClassName=Integrirane_komponente Member=Component C109 47uF
+Added Member To Class: ClassName=Integrirane_komponente Member=Component L2 Inductor
+Added Member To Class: ClassName=Integrirane_komponente Member=Component R18 Res2
+Added Member To Class: ClassName=Integrirane_komponente Member=Component R78 100K
+Added Member To Class: ClassName=Integrirane_komponente Member=Component R79 90.9K
+Added Member To Class: ClassName=Integrirane_komponente Member=Component R80 10K
+Added Member To Class: ClassName=Integrirane_komponente Member=Component V7 Diode 1N4148

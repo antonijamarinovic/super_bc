@@ -1,0 +1,18 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "1.42"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2323478"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "regulator_12.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D5(F_za_regulator_12_5V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "1.42"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2323478"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "regulator_12.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=12.5V Pin=D5-3
+Added Pin To Net: NetName=NetD5_4 Pin=D5-4
+Added Pin To Net: NetName=BAT+ Pin=D5-5
+Added Member To Class: ClassName=Integrirane_komponente Member=Component D5 regulator_12.5V

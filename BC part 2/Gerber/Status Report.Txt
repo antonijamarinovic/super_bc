@@ -1,0 +1,23 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [PCB.PcbDoc]
+   Generated File[SuperCharger.GTL]
+   Generated File[SuperCharger.GBL]
+   Generated File[SuperCharger.GTO]
+   Generated File[SuperCharger.GTP]
+   Generated File[SuperCharger.GTS]
+   Generated File[SuperCharger.GBS]
+   Generated File[SuperCharger.GBP]
+   Generated File[SuperCharger.GBO]
+   Generated File[SuperCharger.GKO]
+   Generated File[SuperCharger.GM1]
+   Generated File[SuperCharger.GM15]
+   Generated File[SuperCharger.RUL]
+   Generated File[SuperCharger.EXTREP]
+   Generated File[SuperCharger.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 10:19:46 On 8.5.2018.

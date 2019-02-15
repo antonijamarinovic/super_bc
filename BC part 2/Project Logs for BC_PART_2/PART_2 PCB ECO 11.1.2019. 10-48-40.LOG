@@ -1,0 +1,73 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K1(TSSOP5-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K2(TSSOP5-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K3(TSSOP5-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K4(TSSOP5-3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.325"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2164804"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Analogue Comparator"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetK1_1 Pin=K1-1
+Added Pin To Net: NetName=NetK1_3 Pin=K1-3
+Added Pin To Net: NetName=NetK1_6 Pin=K1-6
+Added Pin To Net: NetName=NetK1_7 Pin=K1-7
+Added Pin To Net: NetName=NetK1_12 Pin=K1-12
+Added Pin To Net: NetName=NetK2_1 Pin=K2-1
+Added Pin To Net: NetName=NetK2_3 Pin=K2-3
+Added Pin To Net: NetName=NetK2_6 Pin=K2-6
+Added Pin To Net: NetName=NetK2_7 Pin=K2-7
+Added Pin To Net: NetName=NetK1_3 Pin=K2-12
+Added Pin To Net: NetName=NetK3_1 Pin=K3-1
+Added Pin To Net: NetName=NetK3_3 Pin=K3-3
+Added Pin To Net: NetName=NetK3_6 Pin=K3-6
+Added Pin To Net: NetName=NetK3_7 Pin=K3-7
+Added Pin To Net: NetName=NetK2_3 Pin=K3-12
+Added Pin To Net: NetName=NetK4_1 Pin=K4-1
+Added Pin To Net: NetName=NetK4_3 Pin=K4-3
+Added Pin To Net: NetName=NetK4_6 Pin=K4-6
+Added Pin To Net: NetName=NetK4_7 Pin=K4-7
+Added Pin To Net: NetName=NetK3_3 Pin=K4-12
+Added Member To Class: ClassName=PART_2 Member=Component K1 TLC3704QJ
+Added Member To Class: ClassName=PART_2 Member=Component K2 TLC3704QJ
+Added Member To Class: ClassName=PART_2 Member=Component K3 TLC3704QJ
+Added Member To Class: ClassName=PART_2 Member=Component K4 TLC3704QJ
+Added Room: Name=PART_2

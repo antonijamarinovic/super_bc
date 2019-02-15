@@ -1,0 +1,41 @@
+Removed Pin From Net: NetName=GND Pin=C39-1
+Removed Pin From Net: NetName=12.5V Pin=D5-3
+Removed Pin From Net: NetName=NetR16_2 Pin=R16-1
+Removed Pin From Net: NetName=GND Pin=R16-2
+Removed Pin From Net: NetName=A- Pin=R16-3
+Removed Pin From Net: NetName=A+ Pin=R16-4
+Removed Pin From Net: NetName=GND Pin=R18-1
+Removed Pin From Net: NetName=12.5V Pin=R18-2
+Removed Pin From Net: NetName=12.5V Pin=R79-1
+Removed Pin From Net: NetName=12.5V Pin=R80-1
+Removed Member From Class: ClassName=Integrirane_komponente Member=R18
+Change Component Footprint: Designator=C34 Old Footprint=C1210_L New Footprint=CAP_0805
+Change Component Comment : Designator=GND1 Old Comment= New Comment=*
+Change Component Comment : Designator=GND2 Old Comment= New Comment=*
+Change Component Comment : Designator=GND4 Old Comment= New Comment=*
+Change Component Comment : Designator=GNDS Old Comment= New Comment=*
+Change Component Comment : Designator=N5 Old Comment= New Comment=*
+Change Component Comment : Designator=R8 Old Comment= New Comment=*
+Change Component Comment : Designator=R16 Old Comment= New Comment=*
+Change Component Comment : Designator=R42 Old Comment= New Comment=*
+Change Component Comment : Designator=TP1 Old Comment= New Comment=*
+Change Component Comment : Designator=TP2 Old Comment= New Comment=*
+Change Component Comment : Designator=TP3 Old Comment= New Comment=*
+Change Component Comment : Designator=TP4 Old Comment= New Comment=*
+Change Component Comment : Designator=TP5 Old Comment= New Comment=*
+Change Component Comment : Designator=TP6 Old Comment= New Comment=*
+Change Component Comment : Designator=TP8 Old Comment= New Comment=*
+Change Component Comment : Designator=TP9 Old Comment= New Comment=*
+Change Component Comment : Designator=TP11 Old Comment= New Comment=*
+Change Component Comment : Designator=C34 Old Comment=10uF New Comment=22uF
+Added Component: Designator=C62(CAP_0805)
+Added Pin To Net: NetName=12.5V Pin=C33-2
+Added Pin To Net: NetName=GND Pin=C62-1
+Added Pin To Net: NetName=12.5V Pin=C62-2
+Added Pin To Net: NetName=12.5V Pin=R79-2
+Added Pin To Net: NetName=12.5V Pin=V7-2
+Added Pin To Net: NetName=NetC39_1 Pin=C39-1
+Added Pin To Net: NetName=NetC39_1 Pin=D5-3
+Added Pin To Net: NetName=NetC39_1 Pin=R79-1
+Added Pin To Net: NetName=NetC39_1 Pin=R80-1
+Added Net: Name=NetC39_1

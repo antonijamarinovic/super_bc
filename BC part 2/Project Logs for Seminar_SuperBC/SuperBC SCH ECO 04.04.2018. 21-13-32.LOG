@@ -1,0 +1,92 @@
+Removed Parameter manafacturer:BEL CIRCUIT PROTECTION from Part F1
+Removed Parameter manafacturer:DIODES INC from Part V9
+Removed Parameter manafacturer:DIODES INC from Part V19
+Removed Parameter manafacturer: from Part C4
+Removed Parameter manafacturer: from Part C22
+Removed Parameter manafacturer: from Part C44
+Removed Parameter manafacturer: from Part C45
+Removed Parameter manafacturer: from Part C46
+Removed Parameter manafacturer: from Part C47
+Removed Parameter manafacturer: from Part C48
+Removed Parameter manafacturer: from Part C49
+Removed Parameter manafacturer: from Part C50
+Removed Parameter manafacturer: from Part C51
+Removed Parameter manafacturer: from Part C52
+Removed Parameter manafacturer: from Part T1
+Removed Parameter manafacturer:HARVIN from Part W1
+Removed Parameter manafacturer:HARVIN from Part W4
+Removed Parameter manafacturer:HARVIN from Part W5
+Removed Parameter manafacturer:MICROCHIP from Part K1
+Removed Parameter manafacturer:MICROCHIP from Part K2
+Removed Parameter manafacturer:MICROCHIP from Part K3
+Removed Parameter manafacturer:MICROCHIP from Part K4
+Removed Parameter manafacturer:MICROCHIP from Part K5
+Removed Parameter manafacturer:MICROCHIP from Part K6
+Removed Parameter manafacturer:MICROCHIP from Part K7
+Removed Parameter manafacturer:MICROCHIP from Part K8
+Removed Parameter manafacturer:MICROCHIP from Part K9
+Removed Parameter manafacturer:MULTICOMP from Part S2
+Removed Parameter manafacturer:MULTICOMP from Part X1
+Removed Parameter manafacturer:MULTICOMP from Part X2
+Removed Parameter manafacturer:MULTICOMP from Part X3
+Removed Parameter manafacturer:MULTICOMP from Part X4
+Removed Parameter manafacturer:MULTICOMP from Part X10
+Removed Parameter manafacturer:MULTICOMP from Part X11
+Removed Parameter manafacturer:MULTICOMP from Part X12
+Removed Parameter manafacturer:MURATA from Part C1
+Removed Parameter manafacturer:MURATA from Part C2
+Removed Parameter manafacturer:MURATA from Part C3
+Removed Parameter manafacturer:MURATA from Part C13
+Removed Parameter manafacturer:MURATA from Part C21
+Removed Parameter manafacturer:MURATA from Part C23
+Removed Parameter manafacturer:OHMITE from Part R8
+Removed Parameter manafacturer:OHMITE from Part R16
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V1
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V2
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V5
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V6
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V14
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V15
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V16
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V17
+Removed Parameter manafacturer:ON SEMICONDUCTOR from Part V18
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part C101
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R2
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R24
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R31
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R33
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R34
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R37
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R41
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R43
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R44
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R45
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R46
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R47
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R48
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R49
+Removed Parameter manafacturer:PANASONIC ELECTRONIC COMPONENTS from Part R52
+Removed Parameter manafacturer:SAMTEC from Part W2
+Removed Parameter manafacturer:SAMTEC from Part W3
+Removed Parameter manafacturer:TEXAS INSTRUMENTS from Part N1
+Removed Parameter manafacturer:TEXAS INSTRUMENTS from Part N2
+Removed Parameter manafacturer:TEXAS INSTRUMENTS from Part N3
+Removed Parameter manafacturer:TEXAS INSTRUMENTS from Part N4
+Removed Parameter manafacturer:VISHAY from Part V10
+Removed Parameter manafacturer:VISHAY from Part V13
+Removed Parameter manafacturer:WALSIN from Part R1
+Removed Parameter manafacturer:WALSIN from Part R12
+Removed Parameter manafacturer:WALSIN from Part R32
+Removed Parameter manafacturer:WALSIN from Part R38
+Removed Parameter manafacturer:WALSIN from Part R39
+Removed Parameter manafacturer:WALSIN from Part R40
+Removed Parameter manafacturer:WELWYN from Part R3
+Removed Parameter manafacturer:WELWYN from Part R5
+Removed Parameter manafacturer:WELWYN from Part R6
+Removed Parameter manafacturer:WELWYN from Part R25
+Removed Parameter manafacturer:WELWYN from Part R53
+Removed Parameter manafacturer:WELWYN from Part R54
+Removed Parameter manafacturer:WELWYN from Part R55
+Removed Parameter manafacturer:WELWYN from Part R59
+Removed Parameter manafacturer:WELWYN from Part R62
+Change Value of Parameter kataloški broj in Part C4 Old= New=2346932

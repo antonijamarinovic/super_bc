@@ -1,0 +1,115 @@
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C101
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C102
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C103
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C104
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C105
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C106
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C111
+Removed Parameter LatestRevisionDate:7.3.2017. from Part C112
+Removed Parameter LatestRevisionDate:8.3.2017. from Part C121
+Removed Parameter LatestRevisionDate:8.3.2017. from Part C122
+Removed Parameter LatestRevisionDate:8.3.2017. from Part C131
+Removed Parameter LatestRevisionDate:8.3.2017. from Part C132
+Removed Parameter LatestRevisionDate:8.3.2017. from Part C141
+Removed Parameter LatestRevisionDate:8.3.2017. from Part H151
+Removed Parameter LatestRevisionDate:8.3.2017. from Part H152
+Removed Parameter LatestRevisionDate:8.3.2017. from Part Q131
+Removed Parameter LatestRevisionDate:8.3.2017. from Part R141
+Removed Parameter LatestRevisionDate:8.3.2017. from Part R151
+Removed Parameter LatestRevisionDate:8.3.2017. from Part R152
+Removed Parameter LatestRevisionDate:8.3.2017. from Part S141
+Removed Parameter LatestRevisionDate:8.3.2017. from Part X103
+Removed Parameter LatestRevisionDate:14.3.2017. from Part D1
+Removed Parameter LatestRevisionDate:- from Part D1
+Removed Parameter Note: from Part C101
+Removed Parameter Note: from Part C102
+Removed Parameter Note: from Part C103
+Removed Parameter Note: from Part C104
+Removed Parameter Note: from Part C105
+Removed Parameter Note: from Part C106
+Removed Parameter Note: from Part C111
+Removed Parameter Note: from Part C112
+Removed Parameter Note: from Part C121
+Removed Parameter Note: from Part C122
+Removed Parameter Note: from Part C131
+Removed Parameter Note: from Part C132
+Removed Parameter Note: from Part C141
+Removed Parameter Note: from Part D1
+Removed Parameter Note: from Part H151
+Removed Parameter Note: from Part H152
+Removed Parameter Note: from Part Q131
+Removed Parameter Note: from Part R141
+Removed Parameter Note: from Part R151
+Removed Parameter Note: from Part R152
+Removed Parameter Note: from Part S141
+Removed Parameter Note: from Part X103
+Removed Parameter Note:Same component as D1A from Part D1
+Removed Parameter Part Link:- from Part D1
+Removed Parameter Part Link:http://uk.farnell.com/abracon/abm3-16-000mhz-b2-t/crystal-16mhz-18pf-cl-5x3-2mm/dp/1611806 from Part Q131
+Removed Parameter Part Link:http://uk.farnell.com/c-k-components/ksek43g-lfs/tactile-switch-spst-0-05a-32vdc/dp/2435308 from Part S141
+Removed Parameter Part Link:http://uk.farnell.com/harwin/m20-9993646/connector-header-tht-2-54mm-36way/dp/1022264 from Part X103
+Removed Parameter Part Link:http://uk.farnell.com/johanson-technology/251r14s160gv4t/cap-rf-c0g-np0-16pf-250v-0603/dp/1885400 from Part C131
+Removed Parameter Part Link:http://uk.farnell.com/johanson-technology/251r14s160gv4t/cap-rf-c0g-np0-16pf-250v-0603/dp/1885400 from Part C132
+Removed Parameter Part Link:http://uk.farnell.com/kingbright/kp-2012lsgc/led-green-0-8mcd-568nm-smd/dp/2463991 from Part H151
+Removed Parameter Part Link:http://uk.farnell.com/kingbright/kpt-2012lvseck-j3-prv/led-red-40mcd-625nm-smd/dp/2610416 from Part H152
+Removed Parameter Part Link:http://uk.farnell.com/multicomp/mc01w08055100r/res-thick-film-100r-5-0-1w-0805/dp/9333703?ost=9333703&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false from Part R141
+Removed Parameter Part Link:http://uk.farnell.com/multicomp/mc0603b103m500ct/ceramic-capacitor-0-01uf-50v-x7r/dp/1709948?ost=1709948&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C112
+Removed Parameter Part Link:http://uk.farnell.com/multicomp/mc0603b103m500ct/ceramic-capacitor-0-01uf-50v-x7r/dp/1709948?ost=1709948&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C141
+Removed Parameter Part Link:http://uk.farnell.com/murata/grm21br61h225ka73l/cap-mlcc-x5r-2-2uf-50v-0805/dp/1845751?ost=1845751&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C121
+Removed Parameter Part Link:http://uk.farnell.com/murata/grm21br61h225ka73l/cap-mlcc-x5r-2-2uf-50v-0805/dp/1845751?ost=1845751&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C122
+Removed Parameter Part Link:http://uk.farnell.com/panasonic-electronic-components/era6arb4991v/res-thin-film-4k99-0-1-0-125w/dp/2094815?ost=2094815&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part R152
+Removed Parameter Part Link:http://uk.farnell.com/stmicroelectronics/stm32f415rgt6/mcu-32bit-cortex-m4-168mhz-lqfp/dp/2064370?exaMfpn=true&categoryId=&searchRef=SearchLookAhead&searchView=table&iscrfnonsku=false from Part D1
+Removed Parameter Part Link:http://uk.farnell.com/taiyo-yuden/jmk107bj105kk-t/ceramic-capacitor-1uf-6-3v-x5r/dp/1683541?ost=1683541&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C111
+Removed Parameter Part Link:http://uk.farnell.com/vishay/crcw06031k00fkea/res-thick-film-1k-1-0-1w-0603/dp/1469740 from Part R151
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C101
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C102
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C103
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C104
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C105
+Removed Parameter Part Link:http://uk.farnell.com/walsin/0603b104k500ct/capacitor-mlcc-x7r-0-1uf-50v-0603/dp/2496834?ost=2496834&selectedCategoryId=&categoryNameResp=All&searchView=table&iscrfnonsku=false from Part C106
+Removed Parameter StockNo:1022264 from Part X103
+Removed Parameter StockNo:1469740 from Part R151
+Removed Parameter StockNo:1611806 from Part Q131
+Removed Parameter StockNo:1683541 from Part C111
+Removed Parameter StockNo:1709948 from Part C112
+Removed Parameter StockNo:1709948 from Part C141
+Removed Parameter StockNo:1845751 from Part C121
+Removed Parameter StockNo:1845751 from Part C122
+Removed Parameter StockNo:1885400 from Part C131
+Removed Parameter StockNo:1885400 from Part C132
+Removed Parameter StockNo:2064370 from Part D1
+Removed Parameter StockNo:2094815 from Part R152
+Removed Parameter StockNo:2435308 from Part S141
+Removed Parameter StockNo:2463991 from Part H151
+Removed Parameter StockNo:2496834 from Part C102
+Removed Parameter StockNo:2496834 from Part C103
+Removed Parameter StockNo:2496834 from Part C104
+Removed Parameter StockNo:2496834 from Part C105
+Removed Parameter StockNo:2496834 from Part C106
+Removed Parameter StockNo:2496930 from Part C101
+Removed Parameter StockNo:2610416 from Part H152
+Removed Parameter StockNo:9333703 from Part R141
+Removed Parameter StockNo:- from Part D1
+Removed Parameter Supplier:- from Part D1
+Removed Parameter Supplier:Farnell from Part C101
+Removed Parameter Supplier:Farnell from Part C102
+Removed Parameter Supplier:Farnell from Part C103
+Removed Parameter Supplier:Farnell from Part C104
+Removed Parameter Supplier:Farnell from Part C105
+Removed Parameter Supplier:Farnell from Part C106
+Removed Parameter Supplier:Farnell from Part C111
+Removed Parameter Supplier:Farnell from Part C112
+Removed Parameter Supplier:Farnell from Part C121
+Removed Parameter Supplier:Farnell from Part C122
+Removed Parameter Supplier:Farnell from Part C131
+Removed Parameter Supplier:Farnell from Part C132
+Removed Parameter Supplier:Farnell from Part C141
+Removed Parameter Supplier:Farnell from Part D1
+Removed Parameter Supplier:Farnell from Part H151
+Removed Parameter Supplier:Farnell from Part H152
+Removed Parameter Supplier:Farnell from Part Q131
+Removed Parameter Supplier:Farnell from Part R141
+Removed Parameter Supplier:Farnell from Part R151
+Removed Parameter Supplier:Farnell from Part R152
+Removed Parameter Supplier:Farnell from Part S141
+Removed Parameter Supplier:Farnell from Part X103

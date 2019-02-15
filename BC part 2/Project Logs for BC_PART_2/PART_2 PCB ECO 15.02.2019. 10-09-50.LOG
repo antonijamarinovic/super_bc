@@ -1,0 +1,18 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0452"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2057658"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor, 1%, 125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "249K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0452"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2057658"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor, 1%, 125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "249K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetK4_6 Pin=R8-1
+Added Pin To Net: NetName=NetD2_5 Pin=R8-2
+Added Member To Class: ClassName=PART_2 Member=Component R8 249K
+Added Member To Class: ClassName=PART_2 Member=Component R27 510K

@@ -1,0 +1,26 @@
+Removed Parameter Code_IEC: from Part L2
+Removed Parameter Code_JEDEC:DO-204-AH from Part V7
+Removed Parameter Code_JEITA: from Part L2
+Removed Parameter ComponentLink1Description:Manufacturer Link from Part V7
+Removed Parameter ComponentLink1URL:http://www.fairchildsemi.com/ from Part V7
+Removed Parameter ComponentLink2Description:Datasheet from Part V7
+Removed Parameter ComponentLink2URL:http://www.fairchildsemi.com/ds/1N%2F1N4148.pdf from Part V7
+Removed Parameter DatasheetVersion:1997 from Part V7
+Removed Parameter LatestRevisionDate: from Part L2
+Removed Parameter LatestRevisionDate: from Part R18
+Removed Parameter LatestRevisionDate: from Part R79
+Removed Parameter LatestRevisionNote: from Part L2
+Removed Parameter LatestRevisionNote: from Part R18
+Removed Parameter LatestRevisionNote: from Part R79
+Removed Parameter PackageDescription: from Part L2
+Removed Parameter PackageDescription: from Part R18
+Removed Parameter PackageDescription: from Part R79
+Removed Parameter PackageReference: from Part L2
+Removed Parameter PackageReference: from Part R18
+Removed Parameter PackageReference: from Part R79
+Removed Parameter Published: from Part L2
+Removed Parameter Published: from Part R18
+Removed Parameter Published: from Part R79
+Removed Parameter Publisher: from Part L2
+Removed Parameter Publisher: from Part R18
+Removed Parameter Publisher: from Part R79

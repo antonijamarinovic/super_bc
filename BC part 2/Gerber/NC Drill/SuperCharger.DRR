@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB.PcbDoc   8.5.2018.  10:19:43
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : SuperCharger.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.5mm)                                             Round             97        PTH        27.47inch (697.66mm)
+T2      30mil (0.75mm)                                            Round             3         PTH        0.10inch (2.54mm)
+T3      39mil (1mm)                                               Round             66        PTH        28.22inch (716.77mm)
+T4      59mil (1.5mm)                                             Round             23        PTH        8.18inch (207.77mm)
+T5      73mil (1.85mm)                                            Round             3         PTH        0.37inch (9.40mm)
+T6      98mil (2.5mm)                                             Round             4         NPTH       13.01inch (330.47mm)
+T7      126mil (3.2mm)                                            Round             2         NPTH       1.03inch (26.10mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              198
+
+Total Processing Time (hh:mm:ss) : 00:00:00

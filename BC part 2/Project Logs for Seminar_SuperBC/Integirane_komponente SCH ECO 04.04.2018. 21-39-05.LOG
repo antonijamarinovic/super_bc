@@ -1,0 +1,14 @@
+Change Value of Parameter opis komponente in Part C30 Old=kondenzator New=Capacitor
+Change Value of Parameter opis komponente in Part C31 Old=elektrolitski kondenzator New=Electrolytic Capacitor
+Change Value of Parameter Value in Part C31 Old= New=47uF
+Change Value of Parameter opis komponente in Part C32 Old=ceramic capacitor New=Ceramic Capacitor
+Change Value of Parameter opis komponente in Part C35 Old=ceramic capaciotr New=Ceramic Capacitor
+Change Value of Parameter Value in Part C35 Old= New=22uF
+Change Value of Parameter opis komponente in Part C38 Old=Capacitor 0.47u New=Capacitor 0.47uF
+Change Value of Parameter Value in Part C39 Old=100pF New=4.7uF
+Change Value of Parameter Value in Part L1 Old=10mH New=3.3uH
+Change Value of Parameter dobavljaè in Part R15 Old=Farnell New=
+Change Value of Parameter Value in Part R19 Old=10k New=10K
+Change Value of Parameter Value in Part R22 Old=10k New=10K
+Added Parameter Value=1.65V to Part N5
+Added Parameter Value=9.9V to Part N6

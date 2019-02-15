@@ -1,0 +1,36 @@
+Change Value of Parameter cijena (funte) in Part R5 Old=0.0086 New=
+Change Value of Parameter dobavljaè in Part R5 Old=Farnell New=
+Change Value of Parameter kataloški broj in Part R5 Old=2447678 New=
+Change Value of Parameter Value in Part R5 Old=250K New=
+Change Value of Parameter cijena (funte) in Part R6 Old=0.0086 New=
+Change Value of Parameter dobavljaè in Part R6 Old=Farnell New=
+Change Value of Parameter kataloški broj in Part R6 Old=2447678 New=
+Change Value of Parameter Value in Part R6 Old=250K New=
+Change Value of Parameter cijena (funte) in Part R7 Old=0.0086 New=
+Change Value of Parameter dobavljaè in Part R7 Old=Farnell New=
+Change Value of Parameter kataloški broj in Part R7 Old=2447678 New=
+Change Value of Parameter Value in Part R7 Old=250K New=
+Change Value of Parameter cijena (funte) in Part R8 Old=0.0086 New=
+Change Value of Parameter dobavljaè in Part R8 Old=Farnell New=
+Change Value of Parameter kataloški broj in Part R8 Old=2447678 New=
+Change Value of Parameter Value in Part R8 Old=250K New=
+Change Value of Parameter cijena (funte) in Part R25 Old= New=0.0086
+Change Value of Parameter kataloški broj in Part R25 Old= New=	2447678
+Change Value of Parameter opis komponente in Part R25 Old=resistor New=rsistor, 125mW
+Change Value of Parameter Value in Part R25 Old=512K New=510K
+Change Value of Parameter cijena (funte) in Part R26 Old= New=0.0086
+Change Value of Parameter kataloški broj in Part R26 Old= New=	2447678
+Change Value of Parameter opis komponente in Part R26 Old=resistor New=rsistor, 125mW
+Change Value of Parameter Value in Part R26 Old=512K New=510K
+Change Value of Parameter cijena (funte) in Part R27 Old= New=0.0086
+Change Value of Parameter kataloški broj in Part R27 Old= New=	2447678
+Change Value of Parameter opis komponente in Part R27 Old=resistor New=rsistor, 125mW
+Change Value of Parameter Value in Part R27 Old=512K New=510K
+Change Value of Parameter cijena (funte) in Part R28 Old= New=0.0086
+Change Value of Parameter kataloški broj in Part R28 Old= New=	2447678
+Change Value of Parameter opis komponente in Part R28 Old=resistor New=rsistor, 125mW
+Change Value of Parameter Value in Part R28 Old=512K New=510K
+Added Parameter Publisher= to Part R5
+Added Parameter Publisher= to Part R6
+Added Parameter Publisher= to Part R7
+Added Parameter Publisher= to Part R8

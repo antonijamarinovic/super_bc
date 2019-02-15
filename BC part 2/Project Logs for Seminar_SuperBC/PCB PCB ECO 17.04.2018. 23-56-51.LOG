@@ -1,0 +1,14 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "2.49"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2363991"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5m"; VariantName = "[No Variations]"
+Added Component: Designator=R42(otpornik R8, R16)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "2.49"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2363991"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "5m"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=C- Pin=R42-1
+Added Pin To Net: NetName=C+ Pin=R42-2

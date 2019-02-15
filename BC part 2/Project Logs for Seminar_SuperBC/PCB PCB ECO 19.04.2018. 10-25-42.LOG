@@ -1,0 +1,16 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.299"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1904053"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Voltage Reference 1.65V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1.65V"; VariantName = "[No Variations]"
+Added Component: Designator=N5(SOT23_N5_N6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.299"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "1904053"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "Voltage Reference 1.65V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1.65V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetN5_1 Pin=N5-1
+Added Pin To Net: NetName=NetN5_2 Pin=N5-2
+Added Pin To Net: NetName=GND Pin=N5-3
+Added Member To Class: ClassName=Integrirane_komponente Member=Component N5 

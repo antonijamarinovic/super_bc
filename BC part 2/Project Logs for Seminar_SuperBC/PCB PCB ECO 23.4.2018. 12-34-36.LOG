@@ -1,0 +1,11 @@
+Change Physical Footprint: Designator=D7A Old Footprint=temp_senzor New Footprint=temp_senzor
+Change Physical Footprint: Designator=R16 Old Footprint=otpornik R8, R16 New Footprint=otpornik R8, R16
+Change Physical Footprint: Designator=V1 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V2 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V5 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V6 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V14 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V15 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V16 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=V17 Old Footprint=SO-8L single_f New Footprint=SO-8L single_f
+Change Physical Footprint: Designator=X104 Old Footprint=HEADER-4_PIN New Footprint=HEADER-4_PIN

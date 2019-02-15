@@ -1,0 +1,56 @@
+Change Value of Parameter LatestRevisionDate in Part C39 Old=17-Jul-2002 New=
+Change Value of Parameter LatestRevisionNote in Part C39 Old=Re-released for DXP Platform. New=
+Change Value of Parameter PackageDescription in Part C39 Old=Radial Cap, Thru-Hole; 2 Leads; 0.3 in Pin Spacing New=
+Change Value of Parameter PackageReference in Part C39 Old=RAD-0.3 New=
+Change Value of Parameter Published in Part C39 Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part C39 Old=Altium Limited New=
+Change Value of Parameter Code_IEC in Part L2 Old=1005 New=
+Change Value of Parameter Code_JEITA in Part L2 Old=0402 New=
+Change Value of Parameter LatestRevisionDate in Part L2 Old=29-May-2009 New=
+Change Value of Parameter LatestRevisionNote in Part L2 Old=IPC-7351 Footprint Added. New=
+Change Value of Parameter PackageDescription in Part L2 Old=Chip Inductor New=
+Change Value of Parameter PackageReference in Part L2 Old=0402-A New=
+Change Value of Parameter Published in Part L2 Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part L2 Old=Altium Limited New=
+Change Value of Parameter LatestRevisionDate in Part R18 Old=17-Jul-2002 New=
+Change Value of Parameter LatestRevisionNote in Part R18 Old=Re-released for DXP Platform. New=
+Change Value of Parameter PackageDescription in Part R18 Old=Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing New=
+Change Value of Parameter PackageReference in Part R18 Old=AXIAL-0.4 New=
+Change Value of Parameter Published in Part R18 Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part R18 Old=Altium Limited New=
+Change Value of Parameter LatestRevisionDate in Part R79 Old=17-Jul-2002 New=
+Change Value of Parameter LatestRevisionNote in Part R79 Old=Re-released for DXP Platform. New=
+Change Value of Parameter PackageDescription in Part R79 Old=Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing New=
+Change Value of Parameter PackageReference in Part R79 Old=AXIAL-0.4 New=
+Change Value of Parameter Published in Part R79 Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part R79 Old=Altium Limited New=
+Change Value of Parameter LatestRevisionDate in Part R80 Old=17-Jul-2002 New=
+Change Value of Parameter LatestRevisionNote in Part R80 Old=Re-released for DXP Platform. New=
+Change Value of Parameter PackageDescription in Part R80 Old=Axial Device, Thru-Hole; 2 Leads; 0.4 in Pin Spacing New=
+Change Value of Parameter PackageReference in Part R80 Old=AXIAL-0.4 New=
+Change Value of Parameter Published in Part R80 Old=8-Jun-2000 New=
+Change Value of Parameter Publisher in Part R80 Old=Altium Limited New=
+Added Parameter cijena (funte)= to Part C39
+Added Parameter cijena (funte)= to Part D5
+Added Parameter cijena (funte)= to Part L2
+Added Parameter cijena (funte)= to Part R18
+Added Parameter cijena (funte)= to Part R79
+Added Parameter cijena (funte)= to Part R80
+Added Parameter dobavljaè= to Part C39
+Added Parameter dobavljaè= to Part D5
+Added Parameter dobavljaè= to Part L2
+Added Parameter dobavljaè= to Part R18
+Added Parameter dobavljaè= to Part R79
+Added Parameter dobavljaè= to Part R80
+Added Parameter kataloški broj= to Part C39
+Added Parameter kataloški broj= to Part D5
+Added Parameter kataloški broj= to Part L2
+Added Parameter kataloški broj= to Part R18
+Added Parameter kataloški broj= to Part R79
+Added Parameter kataloški broj= to Part R80
+Added Parameter opis komponente= to Part C39
+Added Parameter opis komponente= to Part D5
+Added Parameter opis komponente= to Part L2
+Added Parameter opis komponente= to Part R18
+Added Parameter opis komponente= to Part R79
+Added Parameter opis komponente= to Part R80
