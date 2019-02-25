@@ -1,7 +1,0 @@
-Added Component: Designator=T1(F za transformator)
-Add component. Clean all parameters for all variants
-Added Pin To Net: NetName=NetRV1_2 Pin=T1-1
-Added Pin To Net: NetName=NetR3_2 Pin=T1-5
-Added Pin To Net: NetName=US1 Pin=T1-6
-Added Pin To Net: NetName=NetRV2_1 Pin=T1-10
-Added Pin To Net: NetName=B- Pin=T1-11

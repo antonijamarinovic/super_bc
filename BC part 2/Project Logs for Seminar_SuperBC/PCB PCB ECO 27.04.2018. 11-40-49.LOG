@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetD5_5 Pin=D5-9
-Change Component Footprint: Designator=R79 Old Footprint=C0805 New Footprint=CAP_0603
-Change Component Footprint: Designator=R65 Old Footprint=C1206 New Footprint=CAP_0603
-Change Component Footprint: Designator=C37 Old Footprint=C1210_L New Footprint=CAP_0603
-Change Component Footprint: Designator=C38 Old Footprint=C1210_L New Footprint=CAP_0603
-Change Component Footprint: Designator=R26 Old Footprint=C1210_L New Footprint=CAP_0805
-Change Component Footprint: Designator=R67 Old Footprint=C1210_L New Footprint=CAP_0805
-Added Member To Class: ClassName=CPU_PCB Member=Component H152 RED
