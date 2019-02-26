@@ -2,4 +2,4 @@
 Student project - Battery-SuperCapacitor Charger
  
 izmjena 26.2
-dodan PCB
+dodan PCB (konačan, za izradu)
