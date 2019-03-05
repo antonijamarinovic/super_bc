@@ -1,5 +1,5 @@
 # super_bc
 Student project - Battery-SuperCapacitor Charger
  
-izmjena 26.2
+izmjena 5.3
 dodan PCB (konačan, za izradu)
