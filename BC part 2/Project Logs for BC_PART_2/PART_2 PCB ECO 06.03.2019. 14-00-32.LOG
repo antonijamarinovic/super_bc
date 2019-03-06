@@ -1,0 +1,40 @@
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C13(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C15(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C16(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetK1_1 Pin=C13-1
+Added Pin To Net: NetName=NetC9_1 Pin=C13-2
+Added Pin To Net: NetName=NetC10_1 Pin=C14-2
+Added Pin To Net: NetName=NetK3_1 Pin=C15-1
+Added Pin To Net: NetName=NetC11_1 Pin=C15-2
+Added Pin To Net: NetName=NetK4_1 Pin=C16-1
+Added Pin To Net: NetName=GNDS Pin=C16-2
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetK1_7
+Change Net Name : Old Net Name=NetC14_1 New Net Name=NetK2_7
+Change Net Name : Old Net Name=NetC15_1 New Net Name=NetK3_7
+Change Net Name : Old Net Name=NetC16_1 New Net Name=NetK4_7
+Change Net Name : Old Net Name=NetK1_1 New Net Name=NetC13_1
+Change Net Name : Old Net Name=NetK3_1 New Net Name=NetC15_1
+Change Net Name : Old Net Name=NetK4_1 New Net Name=NetC16_1
+Added Pin To Net: NetName=NetC14_1 Pin=C14-1
+Added Pin To Net: NetName=NetC14_1 Pin=K2-1
+Added Pin To Net: NetName=NetC14_1 Pin=K2-1
+Added Pin To Net: NetName=NetC14_1 Pin=K2-1
+Added Pin To Net: NetName=NetC14_1 Pin=R18-2
+Added Net: Name=NetC14_1
+Added Member To Class: ClassName=PART_2 Member=Component C13 Cap
+Added Member To Class: ClassName=PART_2 Member=Component C14 Cap
+Added Member To Class: ClassName=PART_2 Member=Component C15 Cap
+Added Member To Class: ClassName=PART_2 Member=Component C16 Cap

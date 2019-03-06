@@ -1,0 +1,13 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2447628"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor, 125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2M"; VariantName = "[No Variations]"
+Added Component: Designator=R14(C0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.0106"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2447628"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "resistor, 125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2M"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=PART_2 Member=Component R14 2M

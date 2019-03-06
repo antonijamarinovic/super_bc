@@ -2805,3 +2805,4 @@
 [0303/172106:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [0303/195445:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
 [0303/195445:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
+[0306/135235:WARNING:dns_config_service_win.cc(665)] Failed to read DnsConfig.
