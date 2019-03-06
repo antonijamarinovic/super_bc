@@ -3,3 +3,5 @@
 *.PrjPcbStructure
 /SCProtection_PCB/__Previews
 *.OutJob
+*.PcbDoc.htm
+/BC Part 2/*.htm
