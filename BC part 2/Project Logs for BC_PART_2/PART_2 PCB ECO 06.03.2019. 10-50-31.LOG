@@ -1,0 +1,15 @@
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.388"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2396085"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "N-MOSFET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=V3(sot23_transistors)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "cijena (funte)"; Value = "0.388"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "dobavljaè"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "kataloški broj"; Value = "2396085"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "opis komponente"; Value = "N-MOSFET"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR19_1 Pin=V3-1
+Added Pin To Net: NetName=NetR23_1 Pin=V3-2
+Added Pin To Net: NetName=NetD2_5 Pin=V3-3
